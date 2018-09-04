@@ -1,0 +1,21 @@
+{
+  "name": "ecore",
+  "version": "1.0.0",
+  "description": "Init varsion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Kereia Oleksandr",
+  "license": "ISC",
+  "dependencies": {
+    "decode-uri-component": "^0.2.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.3",
+    "nodemon": "^1.18.3",
+    "pug": "^2.0.3",
+    "request": "^2.87.0"
+  }
+}
